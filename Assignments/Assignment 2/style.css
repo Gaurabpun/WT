@@ -1,0 +1,39 @@
+body{
+    background: url(./Beach-Resort-Sunset-HD-Wallpaper-Background.webp) no-repeat center center/cover;
+}
+p {
+    color: rgb(216, 16, 136)
+}
+
+.text {
+    color:red;
+    margin-left: 0%;
+}
+
+img{
+    align-content: center;
+    margin-left: 43%;
+    position: relative;
+    opacity: 0.8;
+}
+
+.first{
+    line-height: 20px;
+    color:#ccc;
+}
+
+.second{
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.third{
+    color:#ccc;
+    text-decoration: line-through;
+    background-color: hsla(205, 60%, 50%, 0.9);
+}
+.google
+{
+ margin:auto;   
+}
