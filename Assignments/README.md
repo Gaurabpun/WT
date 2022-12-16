@@ -11,3 +11,4 @@
 *Create buttons as per given figure.
 *Create borders as per given figure.
 >Deadline: 2nd December, 12 pm
+4.Design Navbar, CTA, Hero section and 404 page.
