@@ -2,6 +2,7 @@
 ## Assignments:
 1.Create a college routine in HTML.
 >Deadline: 23rd November, 12 pm
+
 2.Create a web document to illustrate following using CSS:
 *Color (name, rgb, hex, rgba, hsl, hsla)
 *Text formatting (color, line height, font, font-weight, underline, stroke, itallic)
