@@ -7,23 +7,73 @@
     <title>Navbar section</title>
 </head>
 <style>
-    h1{
-        display: inline-block;
-        margin-left: 30px;
-        padding-left: 100px;
+    *{
+        font-family: Arial, Helvetica, sans-serif;
     }
 
-    h4{
-        display: inline-block;
-        padding: 10px;
+    .navbar li{
+        float: left;
+        list-style: none;
+    }
+
+    .navbar li{
+        padding: 10px 10px
+    }
+
+    .right{
+        margin-left: 900px;
+    }
+
+    .photo{
+        margin-top: -4px;
+    }
+
+    .right input{
+        padding-left: 30px;
+        border: 1px solid grey;
+        border-radius: 4px;
+        height: 25px;
+        width: 200px;
+        margin-top: -90px;
+    }
+
+    .search{
+        position: absolute;
+        margin-left: 5px;
+    }
+
+    .nav{
+        margin-top: -5px;
+        margin-left: -31px;
+        position: absolute;
+    }
+
+    .li1, .li2, .li3, .li4{
+        color: grey;
+    }
+
+    .li1:hover, .li2:hover, .li3:hover, .li4:hover{
+        color: black;
+        cursor: pointer;
+        border-bottom: 2px solid #6366f1;
     }
 </style>
 <body>
-    <h4>workflow</h4>
-    <a>Dashboard</a>
-    <a>Team</a>
-    <a>Projects</a>
-    <a>Calendar</a>
-    <button>Search</button>
+    <div class="navbar">
+        <ul>
+            <li class="nav"><img src="navbar.png" height="30px" width="30px"></li>
+            <li class="work">workflow</li>
+            <li class="li1">Dashboard</li>
+            <li class="li2">Team</li>
+            <li class="li3">Projects</li>
+            <li class="li4">Calendar</li>
+            <div class="right">
+                <li class="search"><img src="search.png" height="20px" width="20px"></li>
+                <li><input placeholder="Search"></li>
+                <li><img src="bell.png" height="20px" width="20px"></li>
+                <li class="photo"><img src="photo.png" height="30px" width="30px"></li>
+            </div>
+        </ul>
+    </div>
 </body>
 </html>
