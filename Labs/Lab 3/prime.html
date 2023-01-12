@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sum of Prime numbers</title>
+</head>
+<body>
+    <input type="string" id="textField" placeholder="Click on Calculate">
+    <button onclick="calculate()">Calculate</button>
+    <script>
+        function calculate() {
+            let c = 0, sum = 0;
+            for (let i = 2; i < 50; i++) {
+                for (let j = 2; j <= i / 2; j++) {
+                    if (i % j == 0) {
+                        c = 1;
+                        break;
+                    }
+                }
+                if (c == 0) {
+                    sum = sum + i;
+                }
+                c = 0;
+            }
+            document.getElementById("textField").value = sum;
+        }	
+    </script>
+</body>
+</html>
